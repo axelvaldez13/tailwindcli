@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "webpack": "webpack --mode=development",
+    "tail": "postcss tailwind.css -o ./output/css/tailwind.css",
+    "build": "yarn webpack & yarn tail --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.3.3",
+    "cssnano": "^5.0.6",
+    "mithril": "^2.0.4",
+    "webpack": "^5.42.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.4"
+  }
+}
