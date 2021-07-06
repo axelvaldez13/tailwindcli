@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "webpack": "webpack --mode=development",
+		"webpack": "webpack --mode=development",
     "tail": "postcss tailwind.css -o ./output/css/tailwind.css",
-    "build": "yarn webpack & yarn tail --watch"
+    "build": "yarn tail & yarn webpack --watch"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.3.3",
